@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yasser Ait Ali | Full Stack AI Developer</title>
+<link type="image/x-icon" rel="icon" href="images&Docs/Portfolio_logo.png">
+<meta name="description" content="Full Stack AI Developer — crafting high-performance digital experiences">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+
+<!-- Mobile nav -->
+<div id="mnav">
+  <a href="#" data-p="home"     onclick="goPage('home');cMob();return false">Home</a>
+  <a href="#" data-p="skills"   onclick="goPage('skills');cMob();return false">Skills & Certifications</a>
+  <a href="#" data-p="projects" onclick="goPage('projects');cMob();return false">Projects</a>
+  <a href="#" data-p="cv"       onclick="goPage('cv');cMob();return false">CV</a>
+  <a href="#" data-p="contact"  onclick="goPage('contact');cMob();return false">Contact</a>
+</div>
+
+<!-- Navbar -->
+<nav id="nav">
+  <ul class="nl">
+    <li><a href="#" data-p="home"     onclick="goPage('home');return false">Home</a></li>
+    <li><a href="#" data-p="skills"   onclick="goPage('skills');return false">Skills & Certifications</a></li>
+    <li><a href="#" data-p="projects" onclick="goPage('projects');return false">Projects</a></li>
+    <li><a href="#" data-p="cv"       onclick="goPage('cv');return false">CV</a></li>
+    <li><a href="#" data-p="contact"  onclick="goPage('contact');return false">Contact</a></li>
+  </ul>
+  <div class="ham" id="ham" onclick="tMob()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══════════════ PAGES ══════════════ -->
+<div id="app">
+
+  <!-- HOME -->
+  <div class="pg" id="pg-home" data-p="home">
+    <div class="hero">
+      <div class="hl">
+        <h1 class="hn">Yasser<br><span class="ac">Ait Ali</span></h1>
+        <div class="hrb">
+          <p class="hr-role"><span id="typed"></span><span class="tc">|</span></p>
+        </div>
+        <p class="hd">Full Stack AI Engineer crafting intelligent applications by integrating advanced AI into robust, high-performance frameworks.</p>
+        <div class="hctas">
+          <a class="bp" href="#" onclick="goPage('projects');return false">View Projects →</a>
+          <a class="bs" href="#" onclick="goPage('contact');return false">Contact</a>
+        </div>
+      </div>
+      <div class="hr2">
+        <div class="pw">
+          <div class="pr-ring2"></div>
+          <div class="pr-ring"></div>
+          <div class="pc">
+            <img style="width:100%;height:100%;object-fit:cover" src="images&Docs/Profile.jpg" alt="Yasser">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="pg" id="pg-skills" data-p="skills">
+    <div class="sk-header">
+      <div class="sl-lbl rv">Tech Stack</div>
+      <h2 class="hdg rv d1">Skills &amp; Certifications</h2>
+      <p class="sub rv d2">Combining full-stack architecture with advanced AI integration, these core skills deliver scalable, production-ready digital systems.</p>
+      <div class="ctabs rv d2" id="ctabs"></div>
+    </div>
+    <div class="inf-wrap" id="skInfWrap"></div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="pg" id="pg-projects" data-p="projects">
+    <div class="pr-header">
+      <div class="sl-lbl rv">Selected Work</div>
+      <h2 class="hdg rv d1">Featured Projects</h2>
+      <p class="sub rv d2">A selection of projects showcasing my expertise in full-stack development and AI-powered solutions.</p>
+    </div>
+    <div class="inf-wrap" id="prInfWrap"></div>
+  </div>
+
+  <!-- CV -->
+  <div class="pg" id="pg-cv" data-p="cv">
+    <div class="cvspl">
+      <div class="cvl">
+        <div class="cvf">
+
+            <img src="images&Docs/Screenshot 2026-05-05 194129.png" style="width:100%;height:auto;object-fit:contain" alt="CV">
+
+          <div class="cvm">
+            <div class="cvmh">
+              <div class="cvmav">Y</div>
+              <div><div class="cvmn">Yasser Ait Ali</div><div class="cvmr">FULL STACK AI ENGINEER</div></div>
+            </div>
+            <div class="cvms">
+              <div class="cvmst">Experience</div>
+              <div class="cvme"><div class="cvmd"></div><div><div class="cvml" style="width:55%;background:#94a3b8"></div><div class="cvml xs"></div></div></div>
+              <div class="cvme"><div class="cvmd" style="background:#6025c0"></div><div><div class="cvml" style="width:50%;background:#94a3b8"></div><div class="cvml xs"></div></div></div>
+              <div class="cvme"><div class="cvmd" style="background:#0ea5e9"></div><div><div class="cvml" style="width:45%;background:#94a3b8"></div><div class="cvml xs"></div></div></div>
+            </div>
+            <div class="cvms">
+              <div class="cvmst">Skills</div>
+              <div class="cvmb"><div class="cvmbf" style="width:95%"></div></div>
+              <div class="cvmb"><div class="cvmbf" style="width:88%"></div></div>
+              <div class="cvmb"><div class="cvmbf" style="width:82%"></div></div>
+              <div class="cvmb"><div class="cvmbf" style="width:75%"></div></div>
+            </div>
+            <div class="cvms">
+              <div class="cvmst">Education</div>
+              <div class="cvml" style="width:65%;background:#94a3b8"></div><div class="cvml xs"></div>
+              <div class="cvml" style="width:58%;background:#94a3b8;margin-top:.3rem"></div><div class="cvml xs"></div>
+            </div>
+            <div class="cvms">
+              <div class="cvmst">Languages</div>
+              <div style="display:flex;gap:.3rem;flex-wrap:wrap">
+                <span style="padding:.13rem .35rem;background:#e0f2fe;border-radius:4px;font-size:.46rem;color:#0ea5e9;font-weight:600">English</span>
+                <span style="padding:.13rem .35rem;background:#f3e8ff;border-radius:4px;font-size:.46rem;color:#7c3aed;font-weight:600">Arabic</span>
+                <span style="padding:.13rem .35rem;background:#dcfce7;border-radius:4px;font-size:.46rem;color:#16a34a;font-weight:600">French</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cvr">
+        <div>
+          <div class="sl-lbl rv" style="justify-content:center">Curriculum Vitae</div>
+          <h2 class="hdg rv d1" style="text-align:center">Download<br>My&nbsp;CV</h2>
+          <p class="rv d2">A detailed overview of my experience, technical skills, and professional journey as a Full Stack AI Engineer.</p>
+        </div>
+        <div class="cvmeta rv d2">
+          <div class="cvmi"><div class="mn">2026</div><span class="ml">UPDATED</span></div>
+          <div class="cvmi"><div class="mn">171 KB</div><span class="ml">LENGTH</span></div>
+          <div class="cvmi"><div class="mn">PDF</div><span class="ml">FORMAT</span></div>
+        </div>
+        <a class="cvdb rv d3" href="images&Docs/Yasser-AitAli-CV.pdf" download="Yasser-AitAli-CV.pdf">
+          Download CV
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="pg" id="pg-contact" data-p="contact">
+    <div class="sl-lbl rv" style="justify-content:center">Let's Connect</div>
+    <h2 class="hdg rv d1" style="text-align:center;max-width:440px">Connect with me online</h2>
+    <p class="rv d2" style="color:var(--gray);font-size:.9rem;max-width:400px;line-height:1.78;margin-bottom:2.25rem;text-align:center">
+      I’m open to meaningful conversations, collaborations, and opportunities. Feel free to reach out through any of the platforms below.
+    </p>
+    <div class="sr big-soc rv d3" id="bigSoc" style="flex-wrap:wrap;justify-content:center;gap:1rem"></div>
+  </div>
+
+</div><!-- /app -->
+
+<!-- Footer -->
+<!-- <footer id="ft">
+  <div class="ftl">© 2025 <strong>Yasser Ait Ali</strong>. All rights reserved.</div>
+  <div class="sr" id="ftSoc"></div>
+</footer> -->
+
+<!-- Project modal -->
+<div id="pmod" role="dialog" aria-modal="true">
+  <div class="mbd" onclick="cMod()"></div>
+  <div class="mbox" id="mbox"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
