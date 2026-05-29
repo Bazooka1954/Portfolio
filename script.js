@@ -47,6 +47,11 @@ const PROJECTS = [
    tags:["MediaPipe","OpenCV","Flask","Socket.IO","OpenAI API","Data Management","Frontend"],type:"Computer Vision Gesture-Controlled Web Interface",
    desc:"A single-port Flask application that combines real-time hand gesture recognition with an embedded AI chatbot. Control your browser with hand movements captured by your webcam, and chat with an AI assistant — all from one page.",
    link:"https://github.com/Bazooka1954/Gesture-Control-System-AI-Chatbot"},
+   {id:3,
+   title:"Desktop-AI-Assistant",
+   tags:["Python", "Voice UI", "LLM Integration", "Desktop Client", "API Architecture", "Concurrency"],type:"Desktop AI Application",
+   desc:"A modern Python desktop application featuring real-time speech-to-text input, offline text-to-speech output, and conversational AI.",
+   link:"https://github.com/Bazooka1954/Desktop-AI-Assistant"},
 ];
 
 const SOCIALS = [
