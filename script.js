@@ -52,6 +52,11 @@ const PROJECTS = [
    tags:["Python", "Voice UI", "LLM Integration", "Desktop Client", "API Architecture", "Concurrency"],type:"Desktop AI Application",
    desc:"A modern Python desktop application featuring real-time speech-to-text input, offline text-to-speech output, and conversational AI.",
    link:"https://github.com/Bazooka1954/Desktop-AI-Assistant"},
+   {id:4,
+   title:"php-auth-boilerplate",
+   tags:["PHP", "Authentication", "Security", "Web Development"],type:"Web Application",
+   desc:"A robust login and registration boilerplate built with native PHP and Tailwind CSS, prioritizing modern web security standards.",
+   link:"https://github.com/Bazooka1954/php-auth-boilerplate"},
 ];
 
 const SOCIALS = [
